@@ -1,0 +1,2 @@
+docker build . -t express-typescript-docker
+docker run -p 5000:5000 -d express-typescript-docker:latest
