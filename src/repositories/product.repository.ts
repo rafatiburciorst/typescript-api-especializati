@@ -1,9 +1,10 @@
-import AppDataSource from "@/database/data-source";
-import { CreateProductDto } from "@/dto/create-product.dto";
-import { Product } from "@/entities/product.entity";
-import { Repository } from 'typeorm'
 import { validate } from 'class-validator'
-import { UpdateProductDto } from "@/dto/update-product.dto";
+import { Repository } from 'typeorm'
+
+import AppDataSource from "../database/data-source";
+import { CreateProductDto } from "../dto/create-product.dto";
+import { UpdateProductDto } from "../dto/update-product.dto";
+import { Product } from "../entities/product.entity";
 
 export class ProductRepository {
 

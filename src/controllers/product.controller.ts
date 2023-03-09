@@ -1,10 +1,8 @@
 import { Request, Response } from "express"
-import AppDataSource from "@/database/data-source"
-import { Product } from "@/entities/product.entity"
-import { validate } from 'class-validator'
-import { CreateProductDto } from "@/dto/create-product.dto"
-import { UpdateProductDto } from "@/dto/update-product.dto"
-import { ProductRepository } from "@/repositories/product.repository"
+
+import { Product } from "../entities/product.entity"
+import { ProductRepository } from "../repositories/product.repository"
+
 class ProductController {
 
   private productRepository: ProductRepository

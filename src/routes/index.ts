@@ -1,5 +1,6 @@
-import ProductController from "@/controllers/product.controller"
-import { Request, Response, Application, Router } from "express"
+import { Request, Response, Router } from "express"
+
+import ProductController from "../controllers/product.controller"
 
 const routes = Router()
 
